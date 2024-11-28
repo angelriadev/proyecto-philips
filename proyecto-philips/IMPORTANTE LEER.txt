@@ -1,0 +1,20 @@
+en la siguiente carpeta encontrara un proyecto compuesto por 3 modulos:
+
+--> login y registro de usuarios
+--> carrito de compras
+--> pasarela de pago
+
+se incluye una carpeta con las respectivas bases de datos:
+--> login_registro_db (contiene los usuarios creados y almacenados)
+--> tienda_online_db contiene :
+
+1) la tabla productos, donde se insertan los productos directamente en la base de datos
+2) la tabla compra, donde se especifican los respectivos id de la compra, la fecha y el costo
+3) la tabla detalles, donde se indican los productos adquiridos, la cantidad, y el precio de cada uno
+
+incluye un documento "cuenta de prueba", con el cual podra utilizar la pasarela de pago
+
+OJO , la pasarela de pagos, no procesa compras de "MILLONES"
+puede procesar montos inferirores ya que trabaja con dolares USD
+
+al terminar de realizar el pago, puede recargar la URL para verificar que el carrito ha sido vaciado

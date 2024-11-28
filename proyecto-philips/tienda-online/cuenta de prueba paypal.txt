@@ -1,0 +1,5 @@
+cuenta de prueba paypal
+correo: sb-emuzw34315240@personal.example.com
+clave: i!6um_D>
+
+https://developer.paypal.com/dashboard/accounts
